@@ -2,6 +2,6 @@ name: shiny-bookmarks
 account: tohweizhong
 server: shinyapps.io
 appId: 128713
-bundleId: 574097
+bundleId: 574149
 url: https://tohweizhong.shinyapps.io/shiny-bookmarks/
-when: 1475394681.74047
+when: 1475403301.71998
