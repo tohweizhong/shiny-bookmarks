@@ -26,7 +26,8 @@ ui <- dashboardPage(skin = "blue",
                                 fluidRow(
                                   box(h4(strong("SparkR")), width = 3,
                                       h4(a("SparkR 1.5.1", href = "https://spark.apache.org/docs/1.5.1/api/R/", target = "_blank")),
-                                      h4(a("SparkR latest", href = "https://spark.apache.org/docs/latest/sparkr.html", target = "_blank"))
+                                      h4(a("SparkR latest", href = "https://spark.apache.org/docs/latest/sparkr.html", target = "_blank")),
+                                      h4(a("SparkR boilerplate", href = "https://community.hortonworks.com/articles/35476/how-to-access-hdfs-files-using-spark-through-ha-co.html", target = "_blank"))
                                   ),
                                   box(h4(strong("shiny")), width = 3,
                                       h4(a("Shiny gallery", href = "http://shiny.rstudio.com/gallery/", target = "_blank")),
@@ -71,7 +72,9 @@ ui <- dashboardPage(skin = "blue",
                                       h4(a("PySpark 1.6.2", href = "https://spark.apache.org/docs/1.6.2/api/python/pyspark.sql.html", target = "_blank")),
                                       h4(a("Preparing hadoop cluster for pyspark", href = "http://blog.cloudera.com/blog/2015/09/how-to-prepare-your-apache-hadoop-cluster-for-pyspark-jobs/", target = "_blank"))
                                   ),
-                                  box(h4(strong("Jupyter")), width = 3)
+                                  box(h4(strong("Jupyter")), width = 3),
+                                  box(h4(strong("xgboost")), width = 3,
+                                      h4(a("Complete Guide to Parameter Tuning in XGBoost", href = "https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/", target = "_blank")))
                                 )
                         ),
                         
@@ -90,7 +93,8 @@ ui <- dashboardPage(skin = "blue",
                                     h4(a("Installing & Using R on Amazon EC2", href = "http://randyzwitch.com/r-amazon-ec2/?utm_content=buffer6b6e9&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer", target = "_blank")),
                                     h4(a("Running R on AWS", href = "https://blogs.aws.amazon.com/bigdata/post/Tx3IJSB6BMHWZE5/Running-R-on-AWS", target = "_blank")),
                                     h4(a("Connecting to Your Linux Instance from Windows Using PuTTY", href = "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html?icmpid=docs_ec2_console", target = "_blank")),
-                                    h4(a("Running Commands on Your Linux Instance at Launch", href = "http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html", target = "_blank"))
+                                    h4(a("Running Commands on Your Linux Instance at Launch", href = "http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html", target = "_blank")),
+                                    h4(a("Available commands on S3", href = "http://docs.aws.amazon.com/cli/latest/reference/s3/index.html#options", target = "_blank"))
                                 )
                         ),
                         
@@ -101,7 +105,8 @@ ui <- dashboardPage(skin = "blue",
                                   box(h4(strong("Tableau")), width = 3,
                                       h4(a("Decision trees, flow diagrams, sankeys in Tableau", href = "https://community.tableau.com/thread/154623", target = "_blank"))
                                   ),
-                                  box(h4(strong("Linux")), width = 3),
+                                  box(h4(strong("Linux")), width = 3,
+                                      h4(a("Count occurrences of a char in plain text file", href = "http://stackoverflow.com/questions/1603566/count-occurrences-of-a-char-in-plain-text-file", target = "_blank"))),
                                   box(h4(strong("Virtual machines")), width = 3)
                                 ),
                                 fluidRow(
@@ -111,7 +116,9 @@ ui <- dashboardPage(skin = "blue",
                                   box(h4(strong("Kafka")), width = 3)
                                 ),
                                 fluidRow(
-                                  box(h4(strong("PostgreSQL")), width = 3)
+                                  box(h4(strong("PostgreSQL")), width = 3),
+                                  box(h4(strong("Vim")), width = 3,
+                                      h4(a("comment/uncomment lines in Vim", href = "http://stackoverflow.com/questions/1676632/whats-a-quick-way-to-comment-uncomment-lines-in-vim", target = "_blank")))
                                 )
                                 
                         ),
