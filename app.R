@@ -70,7 +70,9 @@ ui <- dashboardPage(skin = "blue",
                                   box(h4(strong("PySpark")), width = 3,
                                       h4(a("PySpark 1.3.0", href = "https://spark.apache.org/docs/1.3.0/api/python/index.html", target = "_blank")),
                                       h4(a("PySpark 1.6.2", href = "https://spark.apache.org/docs/1.6.2/api/python/pyspark.sql.html", target = "_blank")),
-                                      h4(a("Preparing hadoop cluster for pyspark", href = "http://blog.cloudera.com/blog/2015/09/how-to-prepare-your-apache-hadoop-cluster-for-pyspark-jobs/", target = "_blank"))
+                                      h4(a("Preparing hadoop cluster for pyspark", href = "http://blog.cloudera.com/blog/2015/09/how-to-prepare-your-apache-hadoop-cluster-for-pyspark-jobs/", target = "_blank")),
+                                      h4(a("Custom UDF example", href = "https://ragrawal.wordpress.com/2015/10/02/spark-custom-udf-example/", target = "_blank")),
+                                      h4(a("How to write Spark applications in Python", href = "http://blog.appliedinformaticsinc.com/how-to-write-spark-applications-in-python/", target = "_blank"))
                                   ),
                                   box(h4(strong("Jupyter")), width = 3),
                                   box(h4(strong("xgboost")), width = 3,
@@ -82,7 +84,12 @@ ui <- dashboardPage(skin = "blue",
                         tabItem(tabName = "scala"),
                         
                         # Spark
-                        tabItem(tabName = "spark"),
+                        tabItem(tabName = "spark",
+                                box(h4(strong("Set-up")), width = 3,
+                                    h4(a("Spark installation on Windows 10", href = "https://hernandezpaul.wordpress.com/2016/01/24/apache-spark-installation-on-windows-10/", target = "_blank"))
+                                )
+                        ),
+                        
                         
                         # Hadoop
                         tabItem(tabName = "hadoop"),
@@ -94,7 +101,8 @@ ui <- dashboardPage(skin = "blue",
                                     h4(a("Running R on AWS", href = "https://blogs.aws.amazon.com/bigdata/post/Tx3IJSB6BMHWZE5/Running-R-on-AWS", target = "_blank")),
                                     h4(a("Connecting to Your Linux Instance from Windows Using PuTTY", href = "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html?icmpid=docs_ec2_console", target = "_blank")),
                                     h4(a("Running Commands on Your Linux Instance at Launch", href = "http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html", target = "_blank")),
-                                    h4(a("Available commands on S3", href = "http://docs.aws.amazon.com/cli/latest/reference/s3/index.html#options", target = "_blank"))
+                                    h4(a("Available commands on S3", href = "http://docs.aws.amazon.com/cli/latest/reference/s3/index.html#options", target = "_blank")),
+                                    h4(a("Moving data into HDFS from S3", href = "https://documentation.altiscale.com/moving-data-from-s3-to-hdfs", target = "_blank"))
                                 )
                         ),
                         
@@ -128,9 +136,10 @@ ui <- dashboardPage(skin = "blue",
                                 h4("A shiny app for webpages on data science - yes it's an overkill I know."),
                                 h4("Just a place for me to dump my links so that they don't crowd out my browser bookmark bar, while rendering my links portable."),
                                 h4("I have some others in Pocket as well, will slowly transfer them over."),
+                                h4("If Pocket allows me to set up a page to share my links, I won't need to do this also."),
                                 h4("R, Python, Scala, Spark, Hadoop and AWS are part of my primary dev stack right now."),
                                 h4(a("Github repo", href = "https://github.com/tohweizhong/shiny-bookmarks", target = "_blank")),
-                                h4("Last edited: 2nd October 2016")
+                                h4("Last edited: 28th Nov 2016")
                         )
                       )
                     )
